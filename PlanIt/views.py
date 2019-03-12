@@ -16,7 +16,7 @@ from django.contrib import admin
 def backup(request):
 	return render(request, "backup.html", {})
 def categories(request):
-    return render(request, "C:/Users/huma/PycharmProjects/MyProject/templates/categories.html", {})
+    return render(request, "categories.html", {})
 
 def arch(request):
 	return render(request, "arch.html", {})
